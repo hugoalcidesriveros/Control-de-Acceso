@@ -1,1 +1,2 @@
 # Control-de-Acceso
+Este proyecto tiene como objetivo utilizar tarjetas magnéticas en conjunto con Arduino y el módulo RC522, que permite leer las tarjetas y activar funciones específicas. Al hacerlo, se almacena el nombre del usuario en una base de datos, facilitando la gestión de acceso y registro. Además, se integra una interfaz gráfica desarrollada en Processing, que proporciona una visualización intuitiva y está conectada al sistema de Arduino para mejorar la interacción con el usuario
