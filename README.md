@@ -5,7 +5,7 @@ Este proyecto tiene como objetivo utilizar tarjetas magnéticas en conjunto con 
 - Arduino UNO
 - Modulo RFID RC522
 - Tarjetas RFID
-- LCD 20x4
+- LCD 16x2-I2C
 - Buzzer
 - LEDs
 - Potenciometro
