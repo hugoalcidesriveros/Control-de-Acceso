@@ -23,4 +23,4 @@ Fritzing es un software de diseño y prototipado electrónico que facilita la cr
 El dispositivo Arduino debe tener un lector de tarjetas magnéticas o llavero electrónico. Desde processing debe dar de alta (habilitar) una tarjeta. Notificar desde Arduino a Processing si una tarjeta (habilitada o no) quiere ingresar.
 
 
-![](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/Imagenes%20de%20conexion%20.jpg)
+
