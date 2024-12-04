@@ -38,4 +38,4 @@ Al marcar la tarjeta nuevamente para salir, el sistema registrará la hora de sa
 
 ## Esquema de Circuito Realizado en Fritzing
 ### Ingresa al archivo [Fritzing](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/sketch_241112b/sketch_241112b.pde)
-![](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/Sistema-de-Acceso.jpg)
+![](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/Circuito%20Arduino.jpg)
