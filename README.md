@@ -37,5 +37,5 @@ En la segunda vez que el usuario pase su tarjeta, el sistema marcará automátic
 Al marcar la tarjeta nuevamente para salir, el sistema registrará la hora de salida y actualizará la interfaz gráfica. El sector previamente ocupado por el usuario será restaurado a su color original (gris), indicando que la persona ha dejado ese espacio.
 
 ## Esquema de Circuito Realizado en Fritzing
-### Ingresa al archivo [Fritzing](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/sketch_241112b/sketch_241112b.pde)
+### Ingresa al archivo [Fritzing](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/esquema-aduino.fzz)
 ![](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/Circuito%20Arduino.jpg)
