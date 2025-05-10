@@ -7,7 +7,8 @@ Este proyecto tiene como objetivo utilizar tarjetas magnéticas en conjunto con 
 - Tarjetas RFID
 - LCD 16x2-I2C
 - LEDs
-- 4 leds
+- 1 leds Verde
+- 1 leds rojo
 
 ### Simuladores
 - **El Arduino IDE**
