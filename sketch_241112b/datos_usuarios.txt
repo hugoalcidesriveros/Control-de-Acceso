@@ -1,4 +1,0 @@
-Nombre: Alcides - Horario de entrada: 13:17:57
-Nombre: Fran - Horario de entrada: 13:18:01
-Nombre: Alcides - Horario de salida: 13:18:05
-Nombre: Fran - Horario de salida: 13:18:10
