@@ -3,7 +3,9 @@
 Este proyecto tiene como objetivo utilizar tarjetas magnéticas en conjunto con Arduino y el módulo RC522, que permite leer las tarjetas y activar funciones específicas. Al hacerlo, se almacena el nombre del usuario en una base de datos, facilitando la gestión de acceso y registro. Además, se integra una interfaz gráfica desarrollada en Processing, que proporciona una visualización intuitiva y está conectada al sistema de Arduino para mejorar la interacción con el usuario. Se identifican tarjetas magnéticas para:
 
 ✔ Registrar nuevos usuarios (almacenando nombre y cargo en una base de datos local)
+
 ✔ Registrar entradas/salidas (con confirmación mediante botones físicos y LEDs)
+
 ✔ Eliminar usuarios (desde una interfaz gráfica segura)
 
 #Interfaz en Processing
