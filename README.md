@@ -62,13 +62,19 @@ La interfaz gráfica de Processing cuenta con un botón 'Eliminar' para remover 
 ## Esquema de Circuito Realizado en Fritzing
 ### Ingresa al archivo [Fritzing](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/esquema-aduino.fzz)
 ![](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/Circuito%20Arduino.jpg)
+
 Ver conexiones I2C [ver](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/imagenes/Conexiones%20lcd%20i2c.jpg)
+
 Ver conexiones RC522 [ver](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/imagenes/Conexiones%20rc522.jpg)
 
 ## Codigo en Arduino
 Este código implementa un sistema de control de acceso basado en RFID con un lector MFRC522, una pantalla LCD y control de LEDs. Utiliza una lista enlazada de usuarios, donde cada uno tiene un UID, nombre y trabajo. Los usuarios se registran al escanear su tarjeta RFID, mostrando la información en la LCD. Además, permite encender o apagar LEDs mediante comandos seriales desde un programa como Processing. Se utiliza memoria dinámica con new para crear los usuarios y delete para liberar la memoria cuando ya no se necesita. La biblioteca LiquidCrystal_PCF8574 gestiona la pantalla LCD I2C, y la comunicación SPI se usa para interactuar con el lector RFID.
 Para acceder al codigo hace click aca [Arduino](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/lista_arduino/lista_arduino.ino)
 
+
+
 ## Codigo en Processing
 Este código en Processing gestiona un sistema de control de acceso basado en un lector de RFID, el cual se comunica a través de un puerto serial con un dispositivo Arduino. En la pantalla principal, el programa muestra un mensaje de bienvenida y una animación de puntos mientras espera la entrada de datos desde el lector de RFID. Cuando se recibe un identificador de usuario, el sistema verifica si coincide con algún usuario registrado, y si es así, muestra su nombre y rol en pantalla, además de registrar la hora de entrada o salida en un archivo de texto. La animación de los puntos en la pantalla sirve para dar feedback visual al usuario mientras el sistema espera. Los datos de cada usuario, como su nombre, rol y UID, se almacenan en una lista de objetos User, que también incluye la lógica para alternar entre los estados de "entrada" y "salida". Además, si no se detecta actividad durante un período de 10 segundos, el sistema vuelve automáticamente a la pantalla de inicio. Por último, el programa envía información al Arduino para controlar el hardware conectado, como los LEDs o cualquier otro componente relacionado con el acceso.
 Para acceder al codigo hace click aca [Processing](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/Pro-Acceso-de-Control/Pro-Acceso-de-Control.pde)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hugoalcidesriveros&layout=compact)
