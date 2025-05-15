@@ -62,6 +62,8 @@ La interfaz gráfica de Processing cuenta con un botón 'Eliminar' para remover 
 ## Esquema de Circuito Realizado en Fritzing
 ### Ingresa al archivo [Fritzing](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/esquema-aduino.fzz)
 ![](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/Circuito%20Arduino.jpg)
+Ver conexiones I2C [ver](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/imagenes/Conexiones%20lcd%20i2c.jpg)
+Ver conexiones RC522 [ver](https://github.com/hugoalcidesriveros/Control-de-Acceso/blob/main/imagenes/Conexiones%20rc522.jpg)
 
 ## Codigo en Arduino
 Este código implementa un sistema de control de acceso basado en RFID con un lector MFRC522, una pantalla LCD y control de LEDs. Utiliza una lista enlazada de usuarios, donde cada uno tiene un UID, nombre y trabajo. Los usuarios se registran al escanear su tarjeta RFID, mostrando la información en la LCD. Además, permite encender o apagar LEDs mediante comandos seriales desde un programa como Processing. Se utiliza memoria dinámica con new para crear los usuarios y delete para liberar la memoria cuando ya no se necesita. La biblioteca LiquidCrystal_PCF8574 gestiona la pantalla LCD I2C, y la comunicación SPI se usa para interactuar con el lector RFID.
