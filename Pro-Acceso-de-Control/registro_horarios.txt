@@ -1,0 +1,7 @@
+27/04/2025,13:59:39,9b9ccd0c,Hugo Alcides Riveros,ENTRADA
+27/04/2025,13:59:44,9b9ccd0c,Hugo Alcides Riveros,ENTRADA
+27/04/2025,13:59:51,9b9ccd0c,Hugo Alcides Riveros,SALIDA
+27/04/2025,19:56:47,9b9ccd0c,Juan Ernesto,ENTRADA
+27/04/2025,20:05:01,9b9ccd0c,Juan Ernesto,ENTRADA
+27/04/2025,20:05:04,9b9ccd0c,Juan Ernesto,ENTRADA
+27/04/2025,20:05:09,9b9ccd0c,Juan Ernesto,SALIDA
